@@ -1,0 +1,113 @@
+:root {
+  --light-color: #f4f4f4;
+  --dark-color: rgb(119, 5, 5);
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 2rem;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  text-align: center;
+  width: 100%;
+}
+header {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+.heading {
+  border-bottom: 1px solid var(--light-color);
+  padding: 30px;
+}
+.heading-form {
+  padding: 15px;
+}
+.hidden__label {
+  margin-left: -1990px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+input {
+  outline: none;
+}
+.heading__search {
+  background: none;
+  border-radius: 20px;
+  border: none;
+  border-bottom: 1px solid var(--light-color);
+  border-left: 1px solid var(--light-color);
+  padding: 6px 3px;
+  color: var(--light-color);
+}
+.heading__search:focus, .heading__submit:focus {
+  border: 1px solid var(--light-color);
+}
+.heading__submit {
+  background-color: var(--light-color);
+  border: 1px solid var(--light-color);
+  border-radius: 10px;
+  padding: 6px 15px;
+  cursor: pointer;
+}
+.main {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+.section-a {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+}
+.form {
+  padding: 8px;
+}
+.main-form {
+  padding: 5px;
+}
+.main-submit {
+  padding: 7px 15px;
+  background-color: #1d1d1d;
+  color: var(--light-color);
+  border: none;
+  cursor: pointer;
+}
+.delete {
+  float: right;
+  padding: 3px 5px;
+  background-color: rgb(209, 7, 7);
+  color: var(--light-color);
+  border: none;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+li {
+  padding: 7px 15px;
+  border: 1px solid #ccc;
+}
+footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-weight: bolder;
+  margin-top: 50px;
+  padding: 10px;
+}
+@media screen and (min-width: 600px) {
+  .main {
+    width: 70%;
+  }
+}
