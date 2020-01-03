@@ -15,9 +15,8 @@
     </div>
     <div class="heading-form">
       <form action="">
-        <label for="search" class="hidden__label">Search: </label>
-        <input type="search" class="heading__search" name="search" id="search">
-        <input type="submit" class="heading__submit" value="Search">
+        <label for="search">Search: </label>
+        <input type="search" class="heading__search" id="search">
       </form>
     </div>
   </header>
@@ -26,12 +25,13 @@
       <h2>Add Hobbies</h2>
       <form action="">
         <div class="form">
-          <label for="addHobbies" class="hidden__label">Add Hobbies</label>
-          <input type="text" name="addHobbies" id="addHobbies" placeholder="Add Hobby..." class="main-form">
-          <input type="submit"  class="main-submit" value="Add">
+          <label for="addHobby" class="hidden__label">Add Hobbies</label>
+          <input type="text" id="addHobby" placeholder="Add Hobby..." class="main-form">
+          <input type="submit" id="submitHobby" class="main-submit" value="Add">
+          <div id="output"></div>
         </div>
       </form>
-      <ul>
+      <ul id="hobbies">
         <h3>My Hobbies </h3>
         <li>I love to read<button class="delete">x</button></li>
         <li>I love to swim<button class="delete">x</button></li>
@@ -39,9 +39,16 @@
         <li>I love to listen to blues<button class="delete">x</button></li>
       </ul>
     </section>
+    <section class="section-b">
+      <p class="changeBg__p">Move Your Mouse Over TheBox</p>
+      <div class="changeBg" id="changeBg"></div>
+      <br />
+      <button id="reload" class="main-submit">Refresh</button>
+    </section>
   </main>
   <footer>
     <small>Developed By <cite>Odinaka Joy</cite></small>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>

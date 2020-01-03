@@ -38,7 +38,7 @@ header {
   height: 1px;
   overflow: hidden;
 }
-input {
+input, button {
   outline: none;
 }
 .heading__search {
@@ -50,15 +50,8 @@ input {
   padding: 6px 3px;
   color: var(--light-color);
 }
-.heading__search:focus, .heading__submit:focus {
+.heading__search:focus {
   border: 1px solid var(--light-color);
-}
-.heading__submit {
-  background-color: var(--light-color);
-  border: 1px solid var(--light-color);
-  border-radius: 10px;
-  padding: 6px 15px;
-  cursor: pointer;
 }
 .main {
   width: 90%;
@@ -98,6 +91,21 @@ ul {
 li {
   padding: 7px 15px;
   border: 1px solid #ccc;
+}
+.section-b {
+  margin: 30px auto;
+  text-align: center;
+}
+.changeBg {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+  border: 1px solid #333333;
+  box-shadow: inset 5px 5px 2px #333333;
+}
+.changeBg__p {
+  font-weight: bold;
 }
 footer {
   background-color: var(--dark-color);
