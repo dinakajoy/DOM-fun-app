@@ -1,4 +1,4 @@
-# have-fun-app
+# DOM-fun-app
 
 ## Description
 This is an application that shows how to manipulate the DOM. It has no specific function but just have fun while interacting with the elements
@@ -20,7 +20,7 @@ You can click 'Refresh' to refresh page
 * JavaScript - For functionality
 
 ## Link
-Access app via https://odinaka-joy.github.io/have-fun-app/
+Access app via https://odinaka-joy.github.io/DOM-fun-app/
 
 ## Author
-[Odinaka Joy](https://odinaka-joy.github.io/my-portfolio/)
+[Odinaka Joy](https://odinaka-joy.github.io)
