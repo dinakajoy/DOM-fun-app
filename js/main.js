@@ -36,6 +36,7 @@ const delHobbyFunc = (e) => {
 }
 
 const filterHobbyFunc = (e) => {
+  e.preventDefault();
   let searchValue = e.target.value.toLowerCase();
   allHobbies.forEach(hobby => {
     let currentHobby = hobby.firstChild.textContent.toLowerCase();
