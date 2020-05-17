@@ -65,9 +65,10 @@ const resetBodyBg = () => {
   sectionB.style.backgroundColor = '#f4f4f4';
 }
 
-changeBg.addEventListener('mousemove', changeBodyBg);
-changeBg.addEventListener('mouseout', resetBodyBg);
 reload.addEventListener('click', (e) => {
   e.preventDefault();
   location.reload();
 })
+
+changeBg.addEventListener('mousemove', changeBodyBg);
+changeBg.addEventListener('mouseout', resetBodyBg);
