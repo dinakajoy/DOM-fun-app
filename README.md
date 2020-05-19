@@ -23,4 +23,4 @@ You can click 'Refresh' to refresh page
 Access app via https://dinakajoy.github.io/DOM-fun-app/
 
 ## Author
-[Odinaka Joy](https://odinakajoy.com)
+[Odinaka Joy](https://dinakajoy.com)
