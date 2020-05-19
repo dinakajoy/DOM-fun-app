@@ -20,7 +20,7 @@ You can click 'Refresh' to refresh page
 * JavaScript - For functionality
 
 ## Link
-Access app via https://odinaka-joy.github.io/DOM-fun-app/
+Access app via https://dinakajoy.github.io/DOM-fun-app/
 
 ## Author
 [Odinaka Joy](https://odinakajoy.com)
