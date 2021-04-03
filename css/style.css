@@ -65,9 +65,14 @@ input, button {
 }
 .form {
   padding: 8px;
+  margin-bottom: 50px;
 }
 .main-form {
   padding: 5px;
+  width: 100%;
+}
+input[type="submit"] {
+  width: 100%;
 }
 .main-submit {
   padding: 7px 15px;
@@ -117,5 +122,14 @@ footer {
 @media screen and (min-width: 600px) {
   .main {
     width: 70%;
+  }
+  .main-form {
+    padding: 5px;
+    width: 80%;
+    float: left;
+  }
+  input[type="submit"] {
+    width: 20%;
+    float: right;
   }
 }

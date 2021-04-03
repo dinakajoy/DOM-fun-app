@@ -1,16 +1,17 @@
 # DOM-fun-app
 
 ## Description
-This is an application that shows how to manipulate the DOM. It has no specific function but just have fun while interacting with the elements
+This is a simple To Do App, built to practice DOM. Have fun while interacting with the elements.
+You can add todo, remove todo and search lists of todos.
 
 ## Installation
 Clone the repository and cd into the project directory  
 Open with live server or open index.html file in your browser  
 
 ## Usage
-Add hobbies to existing hobbies
-Delete any hobby that does not define you by clicking on the 'X' button  
-Use the search box to filter the list of hobbies based on search input  
+Add todo to existing hobbies
+Delete any todo that does not define you by clicking on the 'X' button  
+Use the search box to filter the list of todos based on search input  
 Play with the box by hovering your mouse on it to see effect  
 You can click 'Refresh' to refresh page  
 
