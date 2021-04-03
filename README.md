@@ -1,4 +1,4 @@
-# DOM-fun-app
+# ToDo-app
 
 ## Description
 This is a simple To Do App, built to practice DOM. Have fun while interacting with the elements.
