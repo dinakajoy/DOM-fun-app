@@ -1,13 +1,13 @@
-const submitHobby = document.querySelector('#submitHobby');
-const addHobby = document.querySelector('#addHobby');
+const submitTodo = document.querySelector('#submitTodo');
+const addTodo = document.querySelector('#addTodo');
 const errorOutput = document.querySelector('#output');
-const hobbies = document.querySelector('#hobbies');
-const filterHobby = document.querySelector('#search');
-const allHobbies = document.querySelectorAll('li');
+const todos = document.querySelector('#todos');
+const filterTodo = document.querySelector('#search');
+const allTodos = document.querySelectorAll('li');
 
-const addHobbyFunc = (e) => {
+const addTodoFunc = (e) => {
   e.preventDefault();
-  if(addHobby === '' || addHobby.value.length < 5) {
+  if(addTodo === '' || addTodo.value.length < 5) {
     errorOutput.textContent = 'Please Enter A Minimum Of Three Characters';
     errorOutput.style.backgroundColor = 'red';
     errorOutput.style.color = 'white';
@@ -20,37 +20,37 @@ const addHobbyFunc = (e) => {
     delButton.className = 'delete';
     delButton.appendChild(document.createTextNode('x'));
   
-    let newHobby = document.createElement('li');
-    newHobby.appendChild(document.createTextNode(addHobby.value));
-    newHobby.appendChild(delButton);
-    hobbies.appendChild(newHobby);
+    let newTodo = document.createElement('li');
+    newTodo.appendChild(document.createTextNode(addTodo.value));
+    newTodo.appendChild(delButton);
+    todos.appendChild(newTodo);
   }
 };
 
-const delHobbyFunc = (e) => {
+const delTodoFunc = (e) => {
   if(e.target.className === "delete") {
-    if(confirm('Are You Sure You Want To Delete Hobby?')) {
-      hobbies.removeChild(e.target.parentElement);
+    if(confirm('Are You Sure You Want To Delete Todo?')) {
+      todos.removeChild(e.target.parentElement);
     }
   }
 }
 
-const filterHobbyFunc = (e) => {
+const filterTodoFunc = (e) => {
   e.preventDefault();
   let searchValue = e.target.value.toLowerCase();
-  allHobbies.forEach(hobby => {
-    let currentHobby = hobby.firstChild.textContent.toLowerCase();
-    if(currentHobby.indexOf(searchValue) !== -1) {
-      hobby.style.display = 'block';
+  allTodos.forEach(todo => {
+    let currentTodo = todo.firstChild.textContent.toLowerCase();
+    if(currentTodo.indexOf(searchValue) !== -1) {
+      todo.style.display = 'block';
     } else {
-      hobby.style.display = 'none';
+      todo.style.display = 'none';
     }
   });
 }
 
-submitHobby.addEventListener('click', addHobbyFunc);
-hobbies.addEventListener('click', delHobbyFunc);
-filterHobby.addEventListener('keyup', filterHobbyFunc);
+submitTodo.addEventListener('click', addTodoFunc);
+todos.addEventListener('click', delTodoFunc);
+filterTodo.addEventListener('keyup', filterTodoFunc);
 
 //Change Background Color Function
 const changeBg = document.querySelector('#changeBg');
