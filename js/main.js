@@ -24,6 +24,7 @@ const addTodoFunc = (e) => {
     newTodo.appendChild(document.createTextNode(addTodo.value));
     newTodo.appendChild(delButton);
     todos.appendChild(newTodo);
+    addTodo.value = '';
   }
 };
 
