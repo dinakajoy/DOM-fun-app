@@ -1,4 +1,4 @@
-# ToDo-app
+# ToDo App
 
 ## Description
 This is a simple To Do App, built to practice DOM. Have fun while interacting with the elements.
@@ -24,4 +24,4 @@ You can click 'Refresh' to refresh page
 Access app via https://dinakajoy.github.io/ToDo-app/
 
 ## Author
-[Odinaka Joy](https://dinakajoy.com)  
+[Odinaka Joy](http://dinakajoy.com)  
